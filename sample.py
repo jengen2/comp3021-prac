@@ -1,10 +1,13 @@
 def greet(name):
+    name = "Bee"
     print("Hello, " + name)
+
 
 def add_numbers(a, b):
     return a + b
 
-if name == "main":
+
+if __name__ == "__main__":
     print("This should be indented")
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
